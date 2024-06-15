@@ -1,0 +1,136 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.backButton:hover .backText {
+  text-decoration: underline;
+}
+
+.backIcon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.detailContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.imageCarousel {
+  flex: 1 1 600px;
+  max-width: 600px;
+}
+
+.mainImage {
+  height: 400px;
+  object-fit: cover;
+}
+
+.thumbnailContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.thumbnail:hover {
+  opacity: 0.8;
+}
+
+.details {
+  flex: 1 1 400px;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.status {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.free {
+  color: green;
+  font-weight: bold;
+}
+
+.occupied {
+  color: red;
+  font-weight: bold;
+}
+
+.tariff {
+  background: #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+
+.price strong {
+  font-size: 22px;
+}
+
+.tariffDetails,
+.information {
+  margin-bottom: 20px;
+}
+
+.tariffDetails h3,
+.information h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bookButton {
+  background-color: white;
+  color: #007bff;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bookButton:hover {
+  background-color: #007bff;
+  color: white;
+}

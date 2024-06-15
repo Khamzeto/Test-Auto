@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
+.navbarBrand {
+  color: aliceblue;
+}
+.nav {
+  margin-left: 100px;
+}

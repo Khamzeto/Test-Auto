@@ -1,0 +1,30 @@
+.filters {
+  max-width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.filters .form-group {
+  margin-bottom: 20px;
+}
+
+.filters .form-label {
+  font-weight: bold;
+}
+
+.filters .form-check {
+  margin-bottom: 10px;
+}
+
+.inputMargin {
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #007bff;
+  padding: 10px;
+  color: aliceblue;
+}
